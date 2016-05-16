@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CarouselViewCell" customModule="DPlayer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="289" height="155"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="289" height="155"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H6W-qf-wfV">
+                        <rect key="frame" x="0.0" y="135" width="289" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="pVB-7X-hrv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="pQ7-f6-Uoe">
+                        <rect key="frame" x="250" y="126.5" width="39" height="37"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </pageControl>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VRW-dX-QiS">
+                        <rect key="frame" x="0.0" y="0.0" width="289" height="135"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="H6W-qf-wfV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="5yQ-q3-WhL"/>
+                <constraint firstItem="pQ7-f6-Uoe" firstAttribute="centerY" secondItem="H6W-qf-wfV" secondAttribute="centerY" id="QVU-bD-FVT"/>
+                <constraint firstAttribute="trailing" secondItem="pQ7-f6-Uoe" secondAttribute="trailing" id="a01-Gb-KEI"/>
+                <constraint firstAttribute="bottom" secondItem="H6W-qf-wfV" secondAttribute="bottom" id="acF-Jp-em3"/>
+                <constraint firstAttribute="trailing" secondItem="VRW-dX-QiS" secondAttribute="trailing" id="cdV-yS-b3I"/>
+                <constraint firstAttribute="trailing" secondItem="H6W-qf-wfV" secondAttribute="trailing" id="hw9-CX-bEQ"/>
+                <constraint firstItem="VRW-dX-QiS" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="kYk-Ql-UR1"/>
+                <constraint firstItem="H6W-qf-wfV" firstAttribute="top" secondItem="VRW-dX-QiS" secondAttribute="bottom" id="uJ7-PQ-KxH"/>
+                <constraint firstItem="VRW-dX-QiS" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="yeW-c9-MdT"/>
+            </constraints>
+            <size key="customSize" width="289" height="155"/>
+            <connections>
+                <outlet property="iconView" destination="VRW-dX-QiS" id="9aC-78-Dom"/>
+            </connections>
+            <point key="canvasLocation" x="294.5" y="373.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

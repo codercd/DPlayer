@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>本地</key>
+	<array>
+		<string>我的文档</string>
+		<string>相册视频</string>
+	</array>
+	<key>网络</key>
+	<array/>
+	<key>设置</key>
+	<array/>
+	<key>New item - 2</key>
+	<string></string>
+	<key>New item</key>
+	<string></string>
+</dict>
+</plist>
